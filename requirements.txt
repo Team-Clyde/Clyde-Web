@@ -1,0 +1,7 @@
+flask
+firebase_admin
+pyppeteer
+lyrics_extractor
+pyqrcode
+pypng
+isodate
