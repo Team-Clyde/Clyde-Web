@@ -34,9 +34,15 @@
 .main{
     font-size: larger;  
 }
+.main:hover{
+    /* color: red;  */
+}
 .cource_intro{
     width: 70%;
     color: #666;
+}
+.cource_intro:hover{
+    color: black;
 }
 .cards{
     display: flex;
@@ -54,6 +60,8 @@
 .science_cards:hover{
     transform:translateY(-10px);
     transition: 500ms ;
+    /* opacity: .6; */
+    background-color: rgb(248, 241, 241);
 
 }
 
@@ -84,6 +92,7 @@
 .eng_cards:hover{
     transform:translateY(-10px);
     transition: 500ms ;
+    background-color: rgb(248, 241, 241);
 }
 .eng_image{
     height: 75%;
@@ -106,6 +115,7 @@
 .box_cards:hover{
     transform:translateY(-10px);
     transition: 500ms ;
+    background-color: rgb(248, 241, 241);
 }
 .box_image{
     height: 75%;
@@ -124,4 +134,5 @@
 .box_card:hover{
     transform:translateY(-10px);
     transition: 500ms ;
+    background-color: rgb(248, 241, 241);
 }
