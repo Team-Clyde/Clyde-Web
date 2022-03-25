@@ -1,4 +1,4 @@
-const texts = ["Find answers to your doubts"]
+const texts = ["Find answers of your doubts"]
 let count=0;
 let index=0;
 let currenttext="";
