@@ -36,7 +36,7 @@ main{
 }
 #intro-in-main {
     padding: 4%;
-    width: 850px;
+    width: 60%;
     
 }
 
@@ -68,9 +68,9 @@ main{
     border: 1px solid transparent;
 }
 #offer-section:hover{
-    transform: scale(1.01);
-    transition: 0.8s;
-    box-shadow: 0px 8px 10px white;
+    /* transform: scale(1.01); */
+    transition: 0.5s;
+    box-shadow: 0px 4px 8px white;
 }
 .letter{
     font-size: 24px;
