@@ -126,6 +126,16 @@ footer.footer-section {
     flex-wrap: wrap;
     flex-direction: row;
 }
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#para22{
+    padding-top: 100px;
+    padding-left: 50px;
+}
 
 
 
