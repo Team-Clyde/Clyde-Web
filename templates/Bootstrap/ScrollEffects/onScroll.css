@@ -66,7 +66,7 @@
   }
   
   .scrolled.fade-in {
-    animation: fade-in 1s ease-in-out both;
+    animation: fade-in 2s ease-in-out both;
   }
   
   .scrolled.fade-in-bottom {
