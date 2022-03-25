@@ -32,10 +32,11 @@ nav ul li {
 main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 #intro-in-main {
-    padding: 8%;
-    width: 900px;
+    padding: 4%;
+    width: 750px;
     
 }
 
@@ -83,5 +84,13 @@ main{
     font-size: 24px;
 }
 
-
+.container{
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: -20%;
+    margin-bottom: 20%;
+    border-radius: 20px;
+    background-color: white;
+}
 /* ----------------Main section End-----------  */
