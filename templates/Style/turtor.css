@@ -67,6 +67,12 @@ main{
     margin-top: 30%;
     border: 1px solid transparent;
 }
+#offer-section button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFFFF;
+}
 #offer-section:hover{
     /* transform: scale(1.01); */
     transition: 0.5s;
@@ -93,13 +99,4 @@ main{
     background-color: white;
 }
 /* ----------------Main section End-----------  */
-button{
-    
-}
 
-button:hover{
-    transition: 0.5s;
-    cursor: pointer;
-    background-color: rgb(0, 0, 0);
-    color: #FFFFFFFF;
-}
