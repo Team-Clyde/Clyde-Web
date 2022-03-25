@@ -36,7 +36,7 @@ main{
 }
 #intro-in-main {
     padding: 4%;
-    width: 750px;
+    width: 850px;
     
 }
 
@@ -88,7 +88,7 @@ main{
     width: 500px;
     height: 500px;
     margin-left: 10%;
-    margin-top: -20%;
+    margin-top: -25%;
     margin-bottom: 20%;
     border-radius: 20px;
     background-color: white;

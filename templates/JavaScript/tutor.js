@@ -19,3 +19,4 @@ let letter="";
     }
     setTimeout(type,250);
 })();
+
