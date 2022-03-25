@@ -4,13 +4,14 @@
 }
 body{
     background-color: black;
-    color: white;
+    color: rgb(163, 159, 159);
 
 }
 /* ----------------Header section-----------  */
 nav{
     background-color: black;
     height: auto;
+    box-shadow: 0px 0px 10px dimgrey;
 
 }
 nav ul{
@@ -19,6 +20,9 @@ nav ul{
 
 nav ul li {
     display: inline;
+}
+#logo:hover{
+    
 }
 /* ----------------Header section End-----------  */
 
@@ -30,41 +34,54 @@ main{
     flex-direction: row;
 }
 #intro-in-main {
-    padding: 20px;
+    padding: 8%;
+    width: 900px;
     
 }
 
 .verticle-line{
     height: 500px;
-    width: 3px;
+    width: 1px;
     background-color: dimgray;
-    margin-left: 200px;
+    margin: 2% 0% 0% 0%;
 }
 #offer-section{
     width: 300px;
-    height: 400px;
+    height: 300px;
     margin: 20px;
     border-radius: 10%;
     background-image: url('https://media.istockphoto.com/photos/white-felt-background-picture-id1062951208?b=1&k=20&m=1062951208&s=170667a&w=0&h=UqTpWjAYhXQPY4KIHWVzqNC6n_0DD73HAf-DO-eVJAk=');
     background-size: cover;
-    box-shadow: 0px 2px 4px white;
+    box-shadow: 0px 2px 4px dimgray;
     text-align: center;
     color: dimgray;
     float: right;
     padding: 50px;
+    padding-top: 10%;
 }
-
+#offer-section button{
+    padding: 16px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 30%;
+    border: 1px solid transparent;
+}
 #offer-section:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition: 0.8s;
     box-shadow: 0px 8px 10px white;
 }
 .letter{
-    
+    font-size: 24px;
+    font-family: cursive;
 }
 
 .letter::first-letter{
+    font-size: 64px;
+}
+.P-letter::first-letter{
     font-size: 24px;
 }
+
 
 /* ----------------Main section End-----------  */
