@@ -55,6 +55,8 @@ nav{
     color:white;
     background-color: #111;
     padding: 12px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #verticalb ul li:hover{
     background-color: white;
@@ -62,6 +64,8 @@ nav{
 }
 #verticalb{
     width:250px;
+    padding-top: 100px;
+    padding-left: 100px;;
 }
 footer.footer-section {
     
@@ -148,6 +152,7 @@ footer.footer-section {
     background-color: white;
     color: #111;
 }
+
 
 
 
