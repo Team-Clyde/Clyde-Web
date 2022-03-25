@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/turtor.css">
+    <link rel="stylesheet" href="Bootstrap/ScrollEffects/onScroll.css">
     <title>Tutor's Point</title>
 </head>
 
@@ -13,29 +14,33 @@
     <header>
         <nav>
             <ul>
-                <li> <img src="logo/online.png" alt="" height="80px"></li>
+                <li> <img id="logo" src="logo/online.png" alt="" height="80px"></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="intro-in-main">
             <div>
-                <p class="letter">
-                    Welcome Teachers and Students!!
-                    <p>to the world where your doubts get's resolved from your prefered Teachers!!</p>
-                </h4>
+                <p class="letter typing"></p>
             </div>
+            
 
         </section>
         <div class="verticle-line"></div>
         <section id="offer-section">
             <h1>15% OFF</h1>
-            <p></p>
-
+            <p class="P-letter">The world where your doubts get's resolved from your prefered Teachers!!</p>
+            <button>Join Now</button>
 
         </section>
+        <section class="container scroll-element js-scroll fade-in "></section>
         
-
     </main>
+    <footer>
+
+    </footer>
+    <script src="JavaScript/tutor.js"></script>
+    <script src="Bootstrap/ScrollEffects/onScroll.js"></script>
 </body>
+
 </html>
