@@ -11,7 +11,7 @@ body{
 nav{
     background-color: black;
     height: auto;
-    box-shadow: 0px 0px 10px dimgrey;
+    /* box-shadow: 0px 0px 10px dimgrey; */
 
 }
 nav ul{
@@ -94,9 +94,19 @@ main{
     width: 500px;
     height: 500px;
     margin-left: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     border-radius: 20px;
     background-color: white;
+}
+#choicse-section{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+#choicse-section div{
+    width: 400px;
+    margin: 10% 20%;
 }
 /* ----------------Main section End-----------  */
 
