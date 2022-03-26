@@ -132,10 +132,53 @@ main{
 }
 
 #part3{
-    background-color: orange;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl_8dN7XVM_tfpvsm55LauuBdfXF0h6ub5Vvw4WoxuD3aN4wZZfWZXkfq6iF6f83zCAw&usqp=CAU');
+    background-size: cover;
     margin: 5% 0;
-    height: 500px;
+    height: 300px;
     width: 100%;
+    display: flex;
+    padding: 5%;
+    color: aliceblue;
+
+}
+#part3 aside{
+    width: 290px;
+    margin: 0 15%;
+}
+.mobile-model{
+    border: 2px solid black;
+    height: 400px;
+    width: 290px;
+    margin-top:-20%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 8px black;
+
+}
+.app-nav{
+    height: 10%;
+    border-bottom: 2px solid black;
+    margin-bottom: 30%;
+    
+}
+.app-bottom-nav{
+    margin-top: 50%;
+    border-top: 2px solid black;
+    justify-content: center;
+}
+.app-controller{
+
+}
+#part3 div h1{
+    color:black;
+    text-transform: uppercase;
+    font-family: '';
+}
+
+#teacher-info-section{
+    color: white;
+    padding-left:30%;
 }
 button{
     padding: 16px;
