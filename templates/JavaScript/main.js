@@ -38,14 +38,12 @@ function change2(){
 }        
 function change3(){
     var Image_Id = document.getElementById("changeimg");
-    
-        Image_Id.src = "logo/review.png";
+    Image_Id.src = "logo/review.png";
     
 }        
 function change4(){
     var Image_Id = document.getElementById("changeimg");
-   
-        Image_Id.src = "logo/scheduling.png";
+    Image_Id.src = "logo/scheduling.png";
     
 }        
 function change5(){
