@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/cources.css">
     <title>Our Courses</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <header id="nav-bar">
         <div id="logo">
-            <p>CLYDE</p>
-            <nav>
-                <ul>
+            <p id="clyde">CLYDE</p>
+            <nav id="list">
+                <ul id="nav">
                     <li class="navicon"><a>Home</a></li>
                     <li class="navicon"><a>Discover</a></li>
                     <li class="navicon"><a>Review</a></li>
@@ -22,6 +23,11 @@
                     <li class="navicon"><a href="#footer">Footer</a></li>
                 </ul>
             </nav>
+            <div class="hamburger" onclick="myFunction()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
     </header>
 
@@ -40,8 +46,7 @@
     </div>
     
     <div class="cards">
-        
-        <div class="science_cards">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
             <img src="images/phy.webp" alt="" class="science_image">
             <div class="sub">PHYSICS</div>
             <div class="icons">
@@ -50,8 +55,7 @@
                 <p>12 modules</p>
             </div>
         </div>
-        
-        <div class="science_cards">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
             <img src="images/chemm.png" alt="" class="science_image">
             <div class="sub">CHEMISTRY</div>
             <div class="icons">
@@ -60,8 +64,7 @@
                 <p>12 modules</p>
             </div>
         </div>
-        
-        <div class="science_cards">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
             <img src="images/bio.png"alt="" class="science_image">
             <div class="sub">BIOLOGY</div>
             <div class="icons">
@@ -71,7 +74,7 @@
             </div>
         </div>
 
-        <div class="science_cards">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
             <img src="images/bio.png"alt="" class="science_image">
             <div class="sub">BIOLOGY</div>
             <div class="icons">
@@ -93,7 +96,7 @@
     <br>
     <div class="cards">
         
-        <div class="science_cards">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
             <img src="images/ai.jpg" alt="" class="science_image">
             <div class="sub">ARTIFICAL INTEGENCE</div>
             <div class="icons">
@@ -103,7 +106,7 @@
             </div>
         </div>
         
-        <div class="science_cards">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
             <img src="images/mecha.webp" alt="" class="science_image">
             <div class="sub">MECHANICS</div>
             <div class="icons">
@@ -113,7 +116,7 @@
             </div>
         </div>
   
-        <div class="science_cards"><img src="images/civil.png" alt="" class="science_image">
+        <div class="science_cards"><img src="images/civil.png" alt="" class="science_image" onclick="location.href='Skip_to_content.html'">
             <div class="sub">CIVIL</div>
             <div class="icons">
                 <p>2 Hours</p>
@@ -122,7 +125,7 @@
             </div>
         </div>
 
-        <div class="science_cards"><img src="images/civil.png" alt="" class="science_image">
+        <div class="science_cards"><img src="images/civil.png" alt="" class="science_image" onclick="location.href='Skip_to_content.html'">
             <div class="sub">CIVIL</div>
             <div class="icons">
                 <p>2 Hours</p>
@@ -142,7 +145,7 @@
     </div>
     <br>
     
-    <div class="cards">
+    <div class="cards" onclick="location.href='Skip_to_content.html'">
         <div class="science_cards"><img src="images/country.webp" alt="" class="science_image">
             <div class="sub">COUNTRY</div>
             <div class="icons">
@@ -152,7 +155,8 @@
             </div>
         </div>
         
-        <div class="science_cards"><img src="images/jszz.png" alt="" class="science_image">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
+            <img src="images/jszz.png" alt="" class="science_image">
             <div class="sub"> JASS</div> 
             <div class="icons">
                 <p>2 Hours</p>
@@ -161,7 +165,8 @@
             </div>
         </div>
         
-        <div class="science_cards"><img src="images/classical.jpg" alt="" class="science_image">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
+            <img src="images/classical.jpg" alt="" class="science_image">
             <div class="sub">CLASSICAL</div>
             <div class="icons">
                 <p>2 Hours</p>
@@ -170,7 +175,8 @@
             </div>
         </div>
 
-        <div class="science_cards"><img src="images/country.webp" alt="" class="science_image">
+        <div class="science_cards" onclick="location.href='Skip_to_content.html'">
+            <img src="images/country.webp" alt="" class="science_image">
             <div class="sub">COUNTRY</div>
             <div class="icons">
                 <p>2 Hours</p>
