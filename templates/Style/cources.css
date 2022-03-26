@@ -80,6 +80,13 @@
         margin-left:2rem;
         transition: 0.6s;
     }
+.navicon:hover{
+    opacity: .5;
+    transform:translateY(-3px);
+    transition: .5;
+    opacity: .5;
+    
+}
 #logoImg{
     height: 46px;
     width: 45px;   
