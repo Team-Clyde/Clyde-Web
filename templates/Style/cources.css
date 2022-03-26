@@ -134,11 +134,15 @@
     padding: 5px;
     background-color:whitesmoke;
     margin-top: 40px;
+    box-shadow: 2px 2px  ;
 }
 .science_cards:hover{
     transform:translateY(-1px);
     transition: 500ms ;
     box-shadow: 0.5px 0.5px 10px ;
+    filter:grayscale(50%);
+    filter: brightness(80%);
+    
 }
 
 .science_image{
