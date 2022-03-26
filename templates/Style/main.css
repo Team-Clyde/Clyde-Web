@@ -57,6 +57,8 @@ nav{
     background-color: #111;
     padding: 12px;
     font-size: 2rem;
+    margin: 20px;
+    border-radius: 20%;
     font-family: Arial, Helvetica, sans-serif;
 }
 #verticalb ul li:hover{
@@ -65,8 +67,14 @@ nav{
 }
 #verticalb{
     width:250px;
-    padding-top: 100px;
     padding-left: 100px;;
+}
+
+#imgChange{
+    margin-top: 5%;
+}
+#changeimg{
+    margin: 0 10%;
 }
 footer.footer-section {
     
