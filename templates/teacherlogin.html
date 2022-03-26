@@ -406,7 +406,7 @@
 <body>
 
 <div>
-	<span class="student">Student's</span>
+	<span class="student">Teacher's</span>
 	<div class="container" id="container">
 		<div class="form-container sign-up-container">
 			<form id="signup" action="/home"> 
@@ -462,24 +462,7 @@
 		signInButton.addEventListener('click', () => {
 			container.classList.remove("right-panel-active");
 		});</script>
-	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
 
-	<script>
-		firebase.initializeApp( {
-			apiKey: "AIzaSyAByWb1CzSlgk0OzSS2llwPnkVE7NWQbXw",
-			authDomain: "clyde-web.firebaseapp.com",
-			databaseURL: "https://clyde-web-default-rtdb.asia-southeast1.firebasedatabase.app",
-			projectId: "clyde-web",
-			storageBucket: "clyde-web.appspot.com",
-			messagingSenderId: "691435749279",
-			appId: "1:691435749279:web:f7b33ad28a2fd62be6c7aa",
-			measurementId: "G-722LG7913E"
-		});
-
-
-
-	</script>
 	<script>
         document.getElementById('signup').addEventListener('submit', signup);
 		document.getElementById('login').addEventListener('submit', login);
