@@ -155,8 +155,10 @@ footer.footer-section {
     
 }
 #para3{
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 10vh;
+    padding-top: 5vh;
+    width:40vw;
+    height: 60vh;
 }
 #explorem:hover{
     background-color: white;
