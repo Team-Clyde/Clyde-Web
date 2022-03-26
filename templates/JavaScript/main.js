@@ -27,57 +27,36 @@ window.onload= function (){
 }
 function change1(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/MainImg.png")) {
-        Image_Id.src = "logo/online.png";
-    }
-    else {
-        Image_Id.src = "logo/img1.png";
-    }
+    Image_Id.src = "logo/online.png";
+    
 }        
 function change2(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/MainImg.png")) {
-        Image_Id.src = "logo/tutor.png";
-    }
-    else {
-        Image_Id.src = "logo/MainImg.png";
-    }
+    Image_Id.src = "logo/tutor.png";
+    
+    
 }        
 function change3(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/img1.png")) {
+    
         Image_Id.src = "logo/online.png";
-    }
-    else {
-        Image_Id.src = "logo/img1.png";
-    }
+    
 }        
 function change4(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/img1.png")) {
+   
         Image_Id.src = "logo/online.png";
-    }
-    else {
-        Image_Id.src = "logo/img1.png";
-    }
+    
 }        
 function change5(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/MainImg.png")) {
-        Image_Id.src = "logo/courses.png";
-    }
-    else {
-        Image_Id.src = "logo/MainImg.png";
-    }
+    Image_Id.src = "logo/courses.png";
+    
 }        
 function change6(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/img1.png")) {
-        Image_Id.src = "logo/online.png";
-    }
-    else {
-        Image_Id.src = "logo/img1.png";
-    }
+    Image_Id.src = "logo/online.png";
+    
 }        
 
 
