@@ -64,7 +64,7 @@ function change4(){
 function change5(){
     var Image_Id = document.getElementById("changeimg");
     if (Image_Id.src.match("logo/MainImg.png")) {
-        Image_Id.src = "logo/couses.png";
+        Image_Id.src = "logo/courses.png";
     }
     else {
         Image_Id.src = "logo/MainImg.png";
