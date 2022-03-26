@@ -398,19 +398,16 @@
 		color: black;
 	}
 
-.student{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
-	color: #000;
-	margin-left: 238px;
-	text-transform: uppercase;
+.radio{
+	display: inline;
+
 }
 </style>
 
 <body>
 
 <div>
-	<span class="student">Student's</span>
+	
 	<div class="container" id="container">
 		<div class="form-container sign-up-container">
 			<form id="signup" action="/home"> 
@@ -420,6 +417,12 @@
 				<input id="name" type="text" placeholder="Name" required />
 				<input id="email" type="email" placeholder="Email" required />
 				<input id="password" type="password" placeholder="Password" required />
+				<div class="">
+					<input id="radio-1" type="checkbox" name="type" required>
+					<!-- <label for="radio-1" class="radio-label">Teacher</label> -->
+					<input id="radio-2" type="checkbox" name="type" required>
+					<!-- <label for="radio-2" class="radio-label">Student</label> -->
+				</div>
 				<button style="color: #FFFFFF;">Sign Up</button>
 			</form>
 		</div>
