@@ -39,7 +39,7 @@ function change2(){
 function change3(){
     var Image_Id = document.getElementById("changeimg");
     
-        Image_Id.src = "logo/online.png";
+        Image_Id.src = "logo/review.png";
     
 }        
 function change4(){
@@ -55,7 +55,7 @@ function change5(){
 }        
 function change6(){
     var Image_Id = document.getElementById("changeimg");
-    Image_Id.src = "logo/online.png";
+    Image_Id.src = "logo/matchM.png";
     
 }        
 
