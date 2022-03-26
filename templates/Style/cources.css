@@ -15,7 +15,7 @@
         background: #333;
     }
     :root{
-        --theme:#f7427e;
+        --theme:#0e0e0e;
     }
 
 
@@ -89,15 +89,26 @@
     font-size:2rem;
     margin-top: 70px;
 }
-
+#head:hover{
+    transform:translateY(-3px);
+    transition: .5;
+    opacity: .5;
+}
 
 .main{
     font-size: xx-large;  
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.main:hover{
+    /* color: hsl(54, 38%, 55%); */
+    opacity: .5;
+}
 .cource_intro{
     width: 60%;
     color: #666;
+}
+.cource_intro:hover{
+    color: #0e0e0e;
 }
 
 .cards{
@@ -116,7 +127,7 @@
 .science_cards:hover{
     transform:translateY(-1px);
     transition: 500ms ;
-    box-shadow: 0.5px 0.5px 1px ;
+    box-shadow: 0.5px 0.5px 10px ;
 }
 
 .science_image{
@@ -148,7 +159,8 @@
     gap:1rem;
     text-align: center;
     justify-content: space-around;
-margin-top: 50px;}
+    margin-top: 50px;
+}
 
 .fdiv{
     height:350px;
