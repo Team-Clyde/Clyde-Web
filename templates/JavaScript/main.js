@@ -36,11 +36,11 @@ function change1(){
 }        
 function change2(){
     var Image_Id = document.getElementById("changeimg");
-    if (Image_Id.src.match("logo/img1.png")) {
-        Image_Id.src = "logo/online.png";
+    if (Image_Id.src.match("logo/MainImg.png")) {
+        Image_Id.src = "logo/tutor.png";
     }
     else {
-        Image_Id.src = "logo/img1.png";
+        Image_Id.src = "logo/MainImg.png";
     }
 }        
 function change3(){
