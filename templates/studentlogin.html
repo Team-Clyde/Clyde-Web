@@ -88,7 +88,7 @@
 	}
 
 	button.ghost {
-		background-color: transparent;
+		background-color: black;
 		border-color: #ffffff;
 		color: #FFFFFF;
 	}
@@ -506,7 +506,7 @@
 			const email = document.querySelector("#email1")
 			const password = document.querySelector("#password1")
 			try {
-				const result = await firebase.auth().signInWithEmailAndPassword(email1.value, password1b.value)
+				const result = await firebase.auth().signInWithEmailAndPassword(email1.value, password1.value)
 				M.toast({ html: `Welcome ${result.user.email}`, classes: "green" })
 				window.location.href ="/home"
 				
