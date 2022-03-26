@@ -131,6 +131,12 @@ main{
     margin: 2% 0%;
 }
 
+#part3{
+    background-color: orange;
+    margin: 5% 0;
+    height: 500px;
+    width: 100%;
+}
 button{
     padding: 16px;
     width: 200px;
