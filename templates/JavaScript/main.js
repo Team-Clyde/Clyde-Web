@@ -17,7 +17,7 @@ let letter="";
 
         index=0;
     }
-    setTimeout(type,250);
+    setTimeout(type,125);
 })();
 
 window.onload= function (){
