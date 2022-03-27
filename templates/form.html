@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/form.css">
+    <script src="JavaScript/form.js"></script>
+</head>
+<body>
+   
+        
+            <!-- <p style="font-size: 3rem; text-align: center; color: #111;">Registration Form</p> -->
+            <div class="content">
+                <h2 class="text_shadows">Registration form</h2>
+            </div>
+            <form class="form-style-7">
+            <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" maxlength="100" required>
+                <span>Enter your full name here</span>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="email" name="email" maxlength="100" required>
+                <span>Enter a valid email address</span>
+            </li>
+            <li>
+                <label for="number"> Phone Number</label>
+                <input type="number" name="number" maxlength="10" required>
+                <span>Enter your phone number</span>
+            </li>
+            <li>
+                <label for="edq">Education Qualification</label>
+                <textarea name="edq" onkeyup="adjust_textarea(this)" required></textarea>
+                <span>Enter your education qualification</span>
+            </li>
+            <li>
+                <label for="exp">Experience</label>
+                
+                <input name="exp" type="number" maxlength="2" required>
+                <span>Enter your experience in teaching</span>
+            </li>
+            <li>
+                <label for="bio">Reason</label>
+                <textarea name="bio" onkeyup="adjust_textarea(this)" required></textarea>
+                <span>Why you want to join us?</span>
+            </li>
+            <li>
+                <button onclick="sub()" class="glow-on-hover" type="button">Submit</button>
+            </li>
+            </ul>
+            </form>
+    
+    
+    
+</body>
+</html>
