@@ -381,6 +381,20 @@ footer.footer-section {
   }
   
   .card form button:hover { background-color: #F17C73; }
+#inp input{
+    border: #111 solid 2px;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+    margin-left: 2.5vw;
+    margin-top:5vh ;
+    transition: transform .2s;
+}
+#inp input:hover{
+    transform: scale(1.5);
+
+}
 
 
 /*  menu bar css
