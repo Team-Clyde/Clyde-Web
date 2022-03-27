@@ -393,7 +393,7 @@ footer.footer-section {
     transition: transform .2s;
 }
 #inp input:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 
 }
 
