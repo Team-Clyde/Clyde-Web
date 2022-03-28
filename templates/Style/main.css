@@ -457,6 +457,50 @@ footer.footer-section {
     font-family: sans-serif; 
     padding-left: 5vw;
 }
+
+#book{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 5rem;
+    text-align: center;
+}
+#inp{
+    text-align: center;
+}
+
+@media screen and (max-width : 1290px){
+    .intro1{
+        display: none;
+    }
+    #onesub{
+        font-size: 2.5rem; 
+    }
+    #evyone{
+        font-size: 1.5rem; 
+    }
+    #sub2{
+        width:350px; 
+        height: 55vh;
+    }
+    #sub3{
+        width:350px;
+        height: 55vh;
+    }
+    #book{
+        font-size: 4rem;
+    }
+    #inp{
+        font-size: 1.5rem;
+    }
+    #inp button{
+        font-size: 1.5rem;
+    }
+    .card{
+        width:400px;
+    }
+        .footer-section{
+        display: none;
+    }
+}
 @media screen and (max-width : 1200px){
     #mainimg{
         width:600px;
@@ -498,9 +542,7 @@ footer.footer-section {
     .title-word{
         font-size: 3rem;
     }
-    .footer-section{
-        display: none;
-    }
+
     .sub{
         text-align: center;
         margin-left: 50px;
