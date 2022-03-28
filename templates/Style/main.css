@@ -95,13 +95,11 @@ nav{
     color:white;
 }
 #verticalb{
-    
-    
-    padding-right:5vw ;
+    padding-left:20vw ;
 }
 
 #imgChange{
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 #changeimg{
     margin: 0 10%;
@@ -420,6 +418,8 @@ footer.footer-section {
 .intro1{
     height: 75vh;
     width: auto;
+    display: flex;
+    flex-direction: row;
 }
 #subs{
     width:400px; 
