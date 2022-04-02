@@ -99,7 +99,7 @@ nav{
 }
 
 #imgChange{
-    /* margin-top: 5%; */
+    /* margin-top: 100%; */
 }
 #changeimg{
     margin: 0 10%;
@@ -173,6 +173,7 @@ footer.footer-section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
     
     
 }
