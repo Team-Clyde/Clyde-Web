@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Dashboard</title>
+  <style>
+#horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#111;
+    display: block;
+   height: 43px;
+}
+  
+#horizontal li {
+    float: left;
+    /* margin-left: 13px; */
+}
+  
+#horizontal li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #111;
+    /* margin-left: -43px; */
+    text-align: left;
+    justify-content: left;
+    align-items: left
+    ;
+    
+}
+  
+#horizontal li a:hover:not(.active) {
+    background-color: white;
+    color:black;
+}
+#horizontal li img{
+  height: 14%;
+  width: 14%;
+}
+
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul id="horizontal">
+      <li><img src="https://telegra.ph/file/4b3af0d328540a9d397ad.png" id="logoImg"></li>
+      <li><a href=#index class="clyde">Clyde</a></li>
+      <li><a href="tutor.html">Tutor Profile</a></li>
+      <li><a href="doubt.html">Doubts</a></li>
+      <li><a href="cources.html">Our Courses</a></li>
+      <!-- <li style="float:right" class="active"><a href=#signin>Sign Up</a></li> -->
+      <li style="float:right" class="active"><a href="login.html">Get started</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
