@@ -1,6 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Bootstrap/ScrollEffects/onScroll.css">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -46,18 +47,18 @@
         </h2>
       </div>
       <br>
-      <section class="intro1">
+      <section class="intro1 scroll-element js-scroll slide-right" style="background-color: #111111; height: fit-content;">
           <div id="imgChange">
             <img id="changeimg" src="logo/MainImg.png" >
           </div>
           <div id="verticalb" style="height: 60vh;width: 60vh;padding-right: 10vh;padding-top: 2vh;">
             <ul style="list-style-type: none; display: block;">
-              <li  class="glow-on-hover" onclick="change1()">&nbsp;&nbsp;Lesson discovery</li>
-              <li  class="glow-on-hover" onclick="change2()">&nbsp;&nbsp;Tutor profile</li>
-              <li  class="glow-on-hover" onclick="change3()">&nbsp;&nbsp;Lesson review</li>
-              <li  class="glow-on-hover" onclick="change4()">&nbsp;&nbsp;Flexible scheduling</li>
-              <li  class="glow-on-hover" onclick="change5()">&nbsp;&nbsp;All around courses</li>
-              <li  class="glow-on-hover" onclick="change6()">&nbsp;&nbsp;Smooth matchmaking</li>
+              <li  class="glow-on-hover" onclick="change1()">Lesson discovery</li>
+              <li  class="glow-on-hover" onclick="change2()">Tutor profile</li>
+              <li  class="glow-on-hover" onclick="change3()">Lesson review</li>
+              <li  class="glow-on-hover" onclick="change4()">Flexible scheduling</li>
+              <li  class="glow-on-hover" onclick="change5()">All around courses</li>
+              <li  class="glow-on-hover" onclick="change6()">Smooth matchmaking</li>
             </ul>
           </div>
         </section>
@@ -200,7 +201,7 @@
 
     
   <script src="JavaScript/main.js"></script>
-
+  <script src="Bootstrap/ScrollEffects/onScroll.js"></script>
 
   <!--
     responsive menu bar
