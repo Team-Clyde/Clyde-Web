@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Dashboard</title>
 </head>
+
 <body>
   <header>
-    <nav>
-        <ul>
-            <li> <img id="logo" src="logo/online.png" alt="" height="80px"></li>
-            <li>
-                <nav role='navigation'>
-                    <div id="menuToggle">
-                        <input type="checkbox" />
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <ul id="menu">
-                            <li><img src="https://telegra.ph/file/4b3af0d328540a9d397ad.png" id="logoImg"
-                                style="border-radius:50%;" width="200px"
-                                >
-                            </li>
-                            <li class="active" onclick="location.href='index.html'">Home</li>
-                            <li><a href="doubt.html">Doubts</a></li>
-                            <li><a href="cources.html">Our Courses</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </li>
-        </ul>
+    <nav id="navbar">
+      <ul>
+        <li> <img id="logo" src="logo/online.png" alt="" height="60px"></li>
+        <li>
+          <nav role='navigation'>
+            <div id="menuToggle" style="margin-top: -1%;">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <li><img src="https://telegra.ph/file/4b3af0d328540a9d397ad.png" id="logoImg" style="border-radius:50%;"
+                    width="200px">
+                </li>
+                <li class="active" onclick="location.href='index.html'">Home</li>
+                <li><a href="doubt.html">Doubts</a></li>
+                <li><a href="cources.html">Our Courses</a></li>
+              </ul>
+            </div>
+          </nav>
+        </li>
+      </ul>
     </nav>
-</header>
+  </header>
+
+  <main>
+
+    <!-- MAIN LEFT SECTION -->
+    <aside id="leftSection">
+      <div id="option1" class="activeOption">
+        <lord-icon src="https://cdn.lordicon.com/wurbjznp.json" trigger="loop" colors="primary:#ffa500"
+          style="width:40px;height:40px">
+        </lord-icon>
+        <h3>Courses</h3>
+      </div>
+      <div id="option2" class="activeOption">
+        <lord-icon src="https://cdn.lordicon.com/drtetngs.json" trigger="loop" colors="primary:#ffa500"
+          style="width:40px;height:40px">
+        </lord-icon>
+        <h3>Appointments</h3>
+      </div>
+    </aside>
+    <!-- MAIN LEFT SECTION END-->
+
+    <!-- ------------MAIN SECTION STARTS---------------- -->
+    <section id="mainSection">
+      <section id="upperSection">
+        <div></div>
+        <div></div>
+      </section>
+      <section id="statusSection">
+
+      </section>
+
+    </section>
+    <!-- ------------MAIN SECTION ENDS---------------- -->
+
+    <!-- MAIN RIGHT SECTION -->
+    <aside id="rigthSection">
+      <div id="scoreBoard">
+        <div>Your Status</div>
+
+      </div>
+
+    </aside>
+    <!-- MAIN RIGHT SECTION END-->
+  </main>
+  <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
 </body>
+
 </html>

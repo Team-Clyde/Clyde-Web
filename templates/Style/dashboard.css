@@ -3,9 +3,98 @@
     padding: 0px;
     margin: 0px;
 }
+
+/* -----------------HEADER SECTION-------------------- */
 #logo{
-    margin:2%;
+    margin:1%;
 }
-header nav{
+#navbar{
     background-color: black;
+    height: 80px;
 }
+/* -----------------HEADER SECTION END-------------------- */
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* <!--------------------- MAIN LEFT SECTION --> */
+#leftSection{
+    background-color: dimgray;
+    height: 1000px;
+    width: 300px;
+}
+#option1{
+    display: flex;
+    margin: 20% 0%;
+    padding: 5% 10%;
+}
+#option1 h3{
+    margin: 2% 10%;
+}
+.activeOption{
+
+}
+
+.activeOption:hover{
+    background-color: rgba(0, 0, 0, 0.228);
+}
+
+#option2{
+    display: flex;
+    margin: -10% 0%;
+    padding: 5% 10%;
+}
+#option2 h3{
+    margin: 2% 10%;
+}
+/* <!---------------------- MAIN LEFT SECTION END--> */
+
+
+/* <!---------------------- MAIN SECTION-------------------> */
+
+#mainSection{
+    height: 1000px;
+    width: auto;
+}
+#upperSection{
+    display: flex;
+    margin: 10% 0%;
+}
+#upperSection div{
+    width: 400px;
+    height: 250px;
+    margin: 0% 5%;
+    border-radius: 20% 2% 10% 2%;
+    box-shadow: 0px 4px 10px dimgray;
+}
+#statusSection{
+    width: 750px;
+    height: 300px;
+    box-shadow: 0px 4px 10px dimgray;
+    margin: 0% 5%;
+    border-radius: 2%;
+}
+
+/* <!---------------------- MAIN RIGHT SECTION --> */
+#scoreBoard{
+    width: 300px;
+    height: 400px;
+    margin: 10% 20%;
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px dimgray;
+}
+#scoreBoard div{
+    background-color: orange;
+    height: 40px;
+    width: auto;
+    border-radius: 15% 15% 0% 0;
+    box-shadow: 0px 4px 10px dimgray;
+    text-align: center;
+    padding: 16px;
+    text-transform: uppercase;
+}
+/* <!-------------------- MAIN RIGHT SECTION END--> */
+
