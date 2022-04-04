@@ -15,8 +15,7 @@
   <header>
     <nav id="navbar">
       <ul>
-        <li> <img id="logo" src="logo/online.png" alt="" height="60px"></li>
-        <li>YOUR Dashboard</li>
+        <li><img id="logo" src="logo/online.png" alt="" height="60px" ></li>
         <li>
           <nav role='navigation'>
             <div id="menuToggle" style="margin-top: -1%;">
@@ -29,8 +28,9 @@
                     width="200px">
                 </li>
                 <li class="active" onclick="location.href='index.html'">Home</li>
-                <li><a href="doubt.html">Doubts</a></li>
-                <li><a href="cources.html">Our Courses</a></li>
+                <li class="active" onclick="location.href='doubt.html'">Doubts</li>
+                <li class="active" onclick="location.href='cources.html'">Our Courses</li>
+                <li class="active" onclick="location.href='tutor.html'">Tutor's Spot</li>
               </ul>
             </div>
           </nav>
@@ -221,7 +221,8 @@
       var options = {
         title: 'OverAll Performance',
         curveType: 'function',
-        legend: { position: 'bottom' }
+        legend: { position: 'bottom' },
+        is3D: true,
       };
 
       var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
@@ -235,8 +236,8 @@
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
         ['Task', 'Hours per Day'],
-        ['Work', 11],
-        ['No.of Doubts', 2],
+        ['Courses in Progress', 11],
+        ['Number of Doubts', 2],
         ['Sleep', 7]
       ]);
 
