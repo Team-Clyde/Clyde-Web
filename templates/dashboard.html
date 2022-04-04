@@ -43,13 +43,13 @@
     <!-- MAIN LEFT SECTION -->
     <aside id="leftSection">
       <div id="option1" class="activeOption">
-        <lord-icon src="https://cdn.lordicon.com/wurbjznp.json" trigger="loop" colors="primary:#ffa500"
+        <lord-icon src="https://cdn.lordicon.com/wurbjznp.json" trigger="hover" colors="primary:#ffa500"
           style="width:40px;height:40px">
         </lord-icon>
         <h3>Courses</h3>
       </div>
       <div id="option2" class="activeOption">
-        <lord-icon src="https://cdn.lordicon.com/drtetngs.json" trigger="loop" colors="primary:#ffa500"
+        <lord-icon src="https://cdn.lordicon.com/drtetngs.json" trigger="hover" colors="primary:#ffa500"
           style="width:40px;height:40px">
         </lord-icon>
         <h3>Appointments</h3>
@@ -62,12 +62,11 @@
       <section id="upperSection">
         <div class="firstdiv"></div>
         <div>
-          <span id="piechart" style=" height: 100px;
-        width: 100px;"></spans>
+          <span style=" "></spans>
         </div>
       </section>
       <section id="statusSection">
-        <div class="last"></div>
+        <div id="piechart" class="last"></div>
       </section>
 
     </section>
@@ -96,7 +95,6 @@
     google.charts.setOnLoadCallback(drawChart);
 
     function drawChart() {
-
       var data = google.visualization.arrayToDataTable([
         ['Task', 'Hours per Day'],
         ['No. of class conducted', 11],
@@ -105,7 +103,7 @@
       ]);
 
       var options = {
-        title: 'your performance'
+        title: 'Your Performance'
       };
 
       var chart = new google.visualization.PieChart(document.getElementById('piechart'));
