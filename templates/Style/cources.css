@@ -97,55 +97,78 @@
 #head{
     font-size:2rem;
     margin-top: 70px;
+    text-align:center;
 }
 
 .main{
-    font-size: xx-large;  
+    font-size: 2.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
 }
 .cards{
     display: flex;
+    /* text-align: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem 8%;
+}
+.mainbody{
+    /* text-align:center; */
+}
+.science_cards{
+    height: 370px;
+    width:350px;
+    margin: 15px;
+    border-radius: 5%;
+    padding: 0.7rem;
+    border: 0.1rem solid rgba(0,0,0,.1);
 }
 
-.science_cards{
-    height: 300px;
-    width: 290px;
-    margin-left: 30px;
-    border-radius: 5%;
-    padding: 5px;
-    background-color:whitesmoke;
-    margin-top: 40px;
-}
-.science_cards:hover{
+/* .science_cards:hover{
     transform:translateY(-1px);
     transition: 500ms ;
     box-shadow: 0.5px 0.5px 10px ;
     filter:grayscale(50%);
     filter: brightness(80%);
     
+} */
+
+.price{
+    position:absolute;
+    margin-top: -245px;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    background-color: #ff5959;
+    padding: 0.1rem 0.5rem;
 }
 
 .science_image{
-    height: 70%;
+    height: 60%;
     width: 100%;
     border-radius: 5%;
 }
 .sub{
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: var(--theme);
     border-radius: 5px;
+    font-size: 1.1rem;
+    padding:0.09rem;
 }
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .icons{
     display: flex;
     justify-content: space-around;
-    margin-top: 22px;}
+    border-top: 0.1rem solid rgba(0,0,0,.1);
+    margin-top:25px;
+}
+
+.cource_intro{
+    width:70%;
+    padding: 0rem 14%;
+    text-align: center;
+}
 
 /* FOOTER */
 #footer{
