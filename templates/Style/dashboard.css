@@ -65,26 +65,30 @@ main{
 #upperSection{
     display: flex;
     margin: 10% 0%;
+    width: 50%;
 }
-#upperSection div{
+.firstdiv{
+    border-radius: 2%;
+    box-shadow: 0px 4px 10px dimgray;
+}
+#chart-div{
     width: 400px;
     height: 250px;
     margin: 0% 5%;
-    border-radius: 20% 2% 10% 2%;
+    
+}
+#curve-chart{
+    width: 400px;
+    height: 250px;
+    margin: 5% 5%;
+    border-radius: 20%;
     box-shadow: 0px 4px 10px dimgray;
+
 }
-.firstdiv{
-    /* color: black; */
-}
-.last{
-    margin-top: 12px;
-    font-size: 2.3rem;
-    height: auto;
-    width: auto;
-}
+
 #piechart_3d{
     height: 330px; 
-    width: 700px;
+    width: 720px;
     box-shadow: 0px 4px 10px dimgray;
     margin: 0% 5%;
     border-radius: 2%;
@@ -92,7 +96,7 @@ main{
 
 /* <!---------------------- MAIN RIGHT SECTION --> */
 #scoreBoard{
-    width: 300px;
+    width: 350px;
     height: 400px;
     margin: 10% 20%;
     border-radius: 10%;
@@ -111,14 +115,15 @@ main{
 }
 #profile-info{
     display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     padding: 2%;
     
 }
-#profile-info span{
+.Text-span{
     color: dimgray;
-    margin-top: 10%;
     width: 60%;
-    padding: 3%;
+    padding: 5%;
 }
 #profile-info img{
     margin: 5%;
@@ -128,5 +133,10 @@ main{
     transform: scale(1.2);
     transition: 0.3s;
 }
+#QR-code img{
+    margin: 10% 40%;
+    box-shadow: 0px 8px 10px dimgray;
+}
+
 /* <!-------------------- MAIN RIGHT SECTION END--> */
 
