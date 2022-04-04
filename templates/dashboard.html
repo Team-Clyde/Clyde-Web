@@ -7,6 +7,29 @@
   <link rel="stylesheet" href="Style/dashboard.css">
   <link rel="stylesheet" href="Style/hamburger.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['No. of class conducted',     11],
+          ['No. of doubt solved',      2],
+          
+        ]);
+
+        var options = {
+          title: 'your performance'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
   <title>Your Dashboard</title>
 </head>
 
@@ -59,11 +82,16 @@
     <!-- ------------MAIN SECTION STARTS---------------- -->
     <section id="mainSection">
       <section id="upperSection">
-        <div></div>
-        <div></div>
+        <div class="firstdiv"></div>
+        <div>
+        <span id="piechart" style=" height: 100px;
+        width: 100px;"></spans>
+      </div>
       </section>
       <section id="statusSection">
-
+<div class="last">
+  COMMENTS......
+</div>
       </section>
 
     </section>
@@ -76,7 +104,7 @@
         <span id="profile-info">
           <span>
             <p>Name: Lina Desusa</p>
-            <p>Age: 20yrs </p>
+            <p>Age: 27yrs </p>
           </span>
           <img
             src="https://media.istockphoto.com/photos/portrait-of-a-mature-woman-40s-looking-camera-with-soft-smile-in-a-picture-id1159704136?b=1&k=20&m=1159704136&s=170667a&w=0&h=e-Z2b2o6oAQxtyJ7RHeWZgG403qE18Or4xrmUgS_p5s="
@@ -87,6 +115,7 @@
     <!-- MAIN RIGHT SECTION END-->
   </main>
   <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+  
 </body>
 
 </html>
