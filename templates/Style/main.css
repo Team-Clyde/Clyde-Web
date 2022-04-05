@@ -400,12 +400,14 @@ footer.footer-section {
     place-items: center;
     text-align: center;
     height: 20vh;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
 }
 
 .title {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 6rem;
     text-transform: uppercase;
 }
 
