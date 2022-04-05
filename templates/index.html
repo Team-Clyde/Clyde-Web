@@ -1,251 +1,266 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="Style/main.css">
-    <link rel="stylesheet" href="Bootstrap/ScrollEffects/onScroll.css">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>  
-    <!--------NAV SECTION--------->
-    <nav>
-      <ul id="horizontal">
-        <li><img src="https://telegra.ph/file/4b3af0d328540a9d397ad.png" id="logoImg"></li>
-        <li><a href=#index>Clyde</a></li>
-        <li><a href="tutor.html">Tutor Profile</a></li>
-        <li><a href="doubt.html">Doubts</a></li>
-        <li><a href="cources.html">Our Courses</a></li>
-        <!-- <li style="float:right" class="active"><a href=#signin>Sign Up</a></li> -->
-        <li style="float:right" class="active"><a href="login.html">Get started</a></li>
-      </ul>
-    </nav>
-    <!--nav section ended-->
-    <section id="introS">
-      <div class="intro">
-        <div id="para2">
-          <img id="mainimg" src="logo/img1.png">
 
-        </div>
-        <div id="para22">
-          <p style="font-size: 3rem;"class="h-primary text typing" id="welcome">Find answers to your doubts</p>
-          <p style="font-family: sans-serif; font-size: 1.5rem;">Interactive <b> one-on-one</b> doubts solving through video call or text messages</p>
-          <br><br>
-          <input id="emailbtn" type="email" placeholder="EMAIL">
-          <button id="expbtn" class="glow-on-hover"  type="button">Explore More</button>
+<head>
+  <link rel="stylesheet" href="Style/main.css">
+  <link rel="stylesheet" href="Bootstrap/ScrollEffects/onScroll.css">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-        </div>
+<body>
+  <!--------NAV SECTION--------->
+  <nav>
+    <ul id="horizontal">
+      <li><img src="https://telegra.ph/file/4b3af0d328540a9d397ad.png" id="logoImg"></li>
+      <li><a href=#index>Clyde</a></li>
+      <li><a href="tutor.html">Tutor Profile</a></li>
+      <li><a href="doubt.html">Doubts</a></li>
+      <li><a href="cources.html">Our Courses</a></li>
+      <!-- <li style="float:right" class="active"><a href=#signin>Sign Up</a></li> -->
+      <li style="float:right" class="active"><a href="login.html">Get started</a></li>
+    </ul>
+  </nav>
+  <!--nav section ended-->
+  <section id="introS">
+    <div class="intro">
+      <div id="para2">
+        <!-- <img id="mainimg" src="logo/online.png"> -->
+        <video src="logo/logo.mp4" width="155%" autoplay></video>
+
       </div>
-      
-      
-      <div class="container1">
-        <h2 class="title">
-          <span class="title-word title-word-1">Do</span>
-          <span class="title-word title-word-2">more</span>
-          <span class="title-word title-word-3">with</span>
-          <span class="title-word title-word-4">CLYDE</span>
-        </h2>
+      <div id="para22">
+        <span class="manage-margin" style="margin-bottom: 50%;">
+        <p style="font-size: 5rem;" class="h-primary text typing" id="welcome">Find answers to your doubts</p>
+        <p style="font-family: sans-serif; font-size: 2.2rem;">Interactive <b> one-on-one</b> doubts solving through
+          video call or text messages</p>
+        </span>
+        <span id="search-section">
+          <input id="search-field" type="text" placeholder="Search your doubts here!">
+          <button id="expbtn" class="glow-on-hover" type="button">SEARCH</button>
+        </span>
+
       </div>
-      <br>
-      <section class="intro1 scroll-element js-scroll slide-right" style="height: fit-content;">
-          <div id="imgChange">
-            <img id="changeimg" src="logo/MainImg.png" >
-          </div>
-          <div id="verticalb" style="height: 70vh;width: 60vh;padding-right: 10vh;">
-            <ul style="list-style-type: none; display: block;">
-              <li  class="glow-on-hover" onclick="change1()">Lesson discovery</li>
-              <li  class="glow-on-hover" onclick="change2()">Tutor profile</li>
-              <li  class="glow-on-hover" onclick="change3()">Lesson review</li>
-              <li  class="glow-on-hover" onclick="change4()">Flexible scheduling</li>
-              <li  class="glow-on-hover" onclick="change5()">All around courses</li>
-              <li  class="glow-on-hover" onclick="change6()">Smooth matchmaking</li>
-            </ul>
-          </div>
-        </section>
+    </div>
 
 
-
-      <!--special courses-->
-      <div id="spc">
-        <div id="spc1">
-          <p style="font-size: 3rem; font-family:sans-serif;color: white;"><b>Special Courses</b></p>
-          <p style="font-size: 2rem;color: white;">Special courses' concept is an model of education for person with disability.
-            Owing to lack of knowledge, educational access and technology , disabled children are often treated as unwanted abd segredated from other children ,
-            so for them we here at CLYDE offers different courses for them
-             like "<b>SIGN LANGUAGE</b>","<b>BRAILLE SCRIPT</b>" ,"<b>LIPREADING</b>" ,
-            "<b>BILINGUAL METHOD</b>"
-            and many more.
-            According to the National Center for Education Statistics, about 11% of undergrads throughout the country report a disability.
-            Online students with disabilities deserve equal access to the same resources, materials, and coursework as their classmates without disabilities. 
-            Working closely with Disability Services professionals, students are provided with the help and assistance 
-            they need to complete challenging coursework, be it: assistive technologies, readers, notetakers, interpreters, enlarged print, extra time for assignments and exams, and more!
-            .Students can learn from these experts either in online as well as in offline mode according to their comfort.
-    
-            We hope at teaching them some helpful courses so that life may become a little easy for them. </p>
-        </div>
-        <div id="spc2">
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="logo/pic1.jpg" style="width:45vw;height: 78vh;">
-            <div class="text">Braille script</div>
-          </div>
-          
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="logo/pic2.jpg" style="width:45vw;height: 78vh;">
-            <div class="text">Sign language</div>
-          </div>
-          
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="logo/deafS.jpg" style="width:45vw;height: 78vh;">
-            <div class="text">Tutoring</div>
-          </div>
-          <div style="text-align:center">
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-          </div>
-        </div>
+    <div class="container1">
+      <h2 class="title">
+        <span class="title-word title-word-1">Do</span>
+        <span class="title-word title-word-2">more</span>
+        <span class="title-word title-word-3">with</span>
+        <span class="title-word title-word-4">CLYDE</span>
+      </h2>
+    </div>
+    <br>
+    <section class="intro1 scroll-element js-scroll slide-right" style="height: fit-content;">
+      <div id="imgChange">
+        <img id="changeimg" src="logo/MainImg.png">
       </div>
-
-      <div class="sub">
-        <div id="subs">
-          <p id="onesub"><b>One subscription unlimited access</b></p>
-          <p id="evyone">Every one of our plans unlocks access to our full tutor community and course catalog.
-            Study with your favorite tutors every week or meet someone new for every lesson.
-          </p>
-        </div>
-        <div id="sub2">
-          <h1  style="font-family:cursive;"><b>Silver subscription</b></h1>
-          <p style="font-size: 2.2rem;">Learn from local tutors from across your country</p>
-          <p style="font-size: 1.5rem;">Experience CLYDE in your local language from your local tutors in your area,
-            at a minimal subscription of Rs.100/per month.
-          </p><br>
-          <button class="glow-on-hover" style="margin-left:3vw;margin-top: 2vh;">Join Now</button>
-        </div>
-        <div id="sub3">
-          <h1 style="font-family:cursive;"><b>Gold premium subscription</b></h1>
-          <p style="font-size: 2.2rem;"> Learn from  global tutors from across world</p>
-          <p style="font-size: 1.5rem;"> Explore CLYDE globally and learn from international tutors 
-            , at an effective subscription of Rs.500/per months.
-          </p>
-          <button class="glow-on-hover" style="margin-left:3vw;"> Join now</button>
-        </div>
-        </div>
-
-
-        <!--demo class-->
-        <div id="demoC" style="margin-top: 10vh;margin-bottom: 5vh;">
-          <p id="book">
-            Book your <b>Free Demo </b>class</p>
-            <div id="inp" >
-              <input type="email" placeholder="Enter your email">
-              <input type="text" placeholder="Enter your name">
-              <input type="number" placeholder="Enter your phone number">
-              <input type="text" placeholder="Enter your class">
-              <button type="button" class="glow-on-hover" style="margin-left: 2vw;">Book free session</button>
-            </div>
-            
-        </div>
-        <div class="container2">
-          <div class="card glow-on-hover">
-            <h1>Notify.me</h1>
-            <h2>Subscribe to our newsletter</h2>
-            <p>Don't miss any notification from our side.</p>
-            <p><small>We don't share your email with any third party companies, promise!</small></p>
-            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email" required>
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1" value=""></div>
-              <div class="clear"></div>
-              <button name="subscribe" id="mc-embedded-subscribe" class="button glow-on-hover" type="submit">Subscribe me</button>
-            </form>
-          </div>
-        </div>
-      
-
-
+      <div id="verticalb" style="height: 70vh;width: 60vh;padding-right: 10vh;">
+        <ul style="list-style-type: none; display: block;">
+          <li class="glow-on-hover" onclick="change1()">Lesson discovery</li>
+          <li class="glow-on-hover" onclick="change2()">Tutor profile</li>
+          <li class="glow-on-hover" onclick="change3()">Lesson review</li>
+          <li class="glow-on-hover" onclick="change4()">Flexible scheduling</li>
+          <li class="glow-on-hover" onclick="change5()">All around courses</li>
+          <li class="glow-on-hover" onclick="change6()">Smooth matchmaking</li>
+        </ul>
+      </div>
     </section>
-    <!--footer section-->
-    <footer class="footer-section bg-with-black">
-      <div class="footer-top-section">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-3 col-sm-6 col-xs-12">
-                      <div class="single-fta">
-                          <img src="http://themeinnovation.com/demo2/html/build-up/img/home1/logo2.png" alt="">
-                          <ul class="fta-list">
-                              <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Tutor Profile</a></li>
-                              <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Doubts</a></li>
-                              <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Our courses</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 col-xs-12">
-                      <div class="single-fta">
-                          <h3 class="fta-title">Important Link</h3>
-                          <ul class="fta-list">
-                              <li><a href="#"><i class="fa fa-square"></i>Log In</a></li>
-                              <li><a href="form.html"><i class="fa fa-square"></i>Apply form</a></li>
-                              <li><a href="#" style="color: #111;"><i class="fa fa-square"></i>spoken languages</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 col-xs-12">
-                      <div class="single-fta">
-                          <h3 class="fta-title">Important Link</h3>
-                          <ul class="fta-list">
-                              <li><a href="#"><i class="fa fa-square"></i>Science</a></li>
-                              <li><a href="#"><i class="fa fa-square"></i>Engineering Subjects</a></li>
-                              <li><a href="#"><i class="fa fa-square"></i>Music</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 col-xs-12">
-                      <div class="single-fta">
-                          <h3 class="fta-title">Contact Us</h3>
-                          <ul class="fta-list">
-                              <li>Address: Chitkara University,Rajpura,Punjab 140401</li>
-                              <li>Phone: (+91) 9501277568</li>
-                              <li>Email: Contact.be21@chitkara.edu.in</li>
-                          </ul>
-                      </div>
-                  </div>
-                  
-              </div>
-          </div>
+
+
+
+    <!--special courses-->
+    <div id="spc">
+      <div id="spc1">
+        <p style="font-size: 3rem; font-family:sans-serif;color: white;"><b>Special Courses</b></p>
+        <p style="font-size: 2rem;color: white;">Special courses' concept is an model of education for person with
+          disability.
+          Owing to lack of knowledge, educational access and technology , disabled children are often treated as
+          unwanted abd segredated from other children ,
+          so for them we here at CLYDE offers different courses for them
+          like "<b>SIGN LANGUAGE</b>","<b>BRAILLE SCRIPT</b>" ,"<b>LIPREADING</b>" ,
+          "<b>BILINGUAL METHOD</b>"
+          and many more.
+          According to the National Center for Education Statistics, about 11% of undergrads throughout the country
+          report a disability.
+          Online students with disabilities deserve equal access to the same resources, materials, and coursework as
+          their classmates without disabilities.
+          Working closely with Disability Services professionals, students are provided with the help and assistance
+          they need to complete challenging coursework, be it: assistive technologies, readers, notetakers,
+          interpreters, enlarged print, extra time for assignments and exams, and more!
+          .Students can learn from these experts either in online as well as in offline mode according to their comfort.
+
+          We hope at teaching them some helpful courses so that life may become a little easy for them. </p>
       </div>
-      <div class="footer-bottom-area">
-          <div class="container">
-              <div class="row">
-                  <div class="col-xs-12">
-                      <div class="footer-bottom">
-                          <div class="row">
-                              <div class="col-md-6 col-sm-12 col-xs-12">
-                                  <div class="fba-copyright">
-                                      <p>Copyright © 2022 Designed by Team Clyde. All rights reserved.</p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6 col-sm-12 col-xs-12">
-                                  <div class="fba-links">
-                                      <ul>
-                                          <li><a href="#">About</a></li>
-                                          <li><a href="#">Contact Us</a></li>
-                                          <li><a href="#">Term & Conditions</a></li>
-                                          <li><a href="#">Privacy Policy</a></li>
-                                          <li><a href="#">Sites Map</a></li>
-                                      </ul>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+      <div id="spc2">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="logo/pic1.jpg" style="width:45vw;height: 78vh;">
+          <div class="text">Braille script</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="logo/pic2.jpg" style="width:45vw;height: 78vh;">
+          <div class="text">Sign language</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="logo/deafS.jpg" style="width:45vw;height: 78vh;">
+          <div class="text">Tutoring</div>
+        </div>
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
       </div>
+    </div>
+
+    <div class="sub">
+      <div id="subs">
+        <p id="onesub"><b>One subscription unlimited access</b></p>
+        <p id="evyone">Every one of our plans unlocks access to our full tutor community and course catalog.
+          Study with your favorite tutors every week or meet someone new for every lesson.
+        </p>
+      </div>
+      <div id="sub2">
+        <h1 style="font-family:cursive;"><b>Silver subscription</b></h1>
+        <p style="font-size: 2.2rem;">Learn from local tutors from across your country</p>
+        <p style="font-size: 1.5rem;">Experience CLYDE in your local language from your local tutors in your area,
+          at a minimal subscription of Rs.100/per month.
+        </p><br>
+        <button class="glow-on-hover" style="margin-left:3vw;margin-top: 2vh;">Join Now</button>
+      </div>
+      <div id="sub3">
+        <h1 style="font-family:cursive;"><b>Gold premium subscription</b></h1>
+        <p style="font-size: 2.2rem;"> Learn from global tutors from across world</p>
+        <p style="font-size: 1.5rem;"> Explore CLYDE globally and learn from international tutors
+          , at an effective subscription of Rs.500/per months.
+        </p>
+        <button class="glow-on-hover" style="margin-left:3vw;"> Join now</button>
+      </div>
+    </div>
+
+
+    <!--demo class-->
+    <div id="demoC" style="margin-top: 10vh;margin-bottom: 5vh;">
+      <p id="book">
+        Book your <b>Free Demo </b>class</p>
+      <div id="inp">
+        <input type="email" placeholder="Enter your email">
+        <input type="text" placeholder="Enter your name">
+        <input type="number" placeholder="Enter your phone number">
+        <input type="text" placeholder="Enter your class">
+        <button type="button" class="glow-on-hover" style="margin-left: 2vw;">Book free session</button>
+      </div>
+
+    </div>
+    <div class="container2">
+      <div class="card glow-on-hover">
+        <h1>Notify.me</h1>
+        <h2>Subscribe to our newsletter</h2>
+        <p>Don't miss any notification from our side.</p>
+        <p><small>We don't share your email with any third party companies, promise!</small></p>
+        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+          class="validate" novalidate>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email" required>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1"
+              value=""></div>
+          <div class="clear"></div>
+          <button name="subscribe" id="mc-embedded-subscribe" class="button glow-on-hover" type="submit">Subscribe
+            me</button>
+        </form>
+      </div>
+    </div>
+
+
+
+  </section>
+  <!--footer section-->
+  <footer class="footer-section bg-with-black">
+    <div class="footer-top-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+              <img src="http://themeinnovation.com/demo2/html/build-up/img/home1/logo2.png" alt="">
+              <ul class="fta-list">
+                <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Tutor Profile</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Doubts</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Our courses</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+              <h3 class="fta-title">Important Link</h3>
+              <ul class="fta-list">
+                <li><a href="#"><i class="fa fa-square"></i>Log In</a></li>
+                <li><a href="form.html"><i class="fa fa-square"></i>Apply form</a></li>
+                <li><a href="#" style="color: #111;"><i class="fa fa-square"></i>spoken languages</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+              <h3 class="fta-title">Important Link</h3>
+              <ul class="fta-list">
+                <li><a href="#"><i class="fa fa-square"></i>Science</a></li>
+                <li><a href="#"><i class="fa fa-square"></i>Engineering Subjects</a></li>
+                <li><a href="#"><i class="fa fa-square"></i>Music</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="single-fta">
+              <h3 class="fta-title">Contact Us</h3>
+              <ul class="fta-list">
+                <li>Address: Chitkara University,Rajpura,Punjab 140401</li>
+                <li>Phone: (+91) 9501277568</li>
+                <li>Email: Contact.be21@chitkara.edu.in</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="footer-bottom">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="fba-copyright">
+                    <p>Copyright © 2022 Designed by Team Clyde. All rights reserved.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="fba-links">
+                    <ul>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">Term & Conditions</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Sites Map</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
-    
+
   <script src="JavaScript/main.js"></script>
   <script src="Bootstrap/ScrollEffects/onScroll.js"></script>
 
@@ -264,6 +279,6 @@
   <div class="menu-con" style="background:rgb(70,70,70);"><p>Join us</p></div>
 </div>
   -->
-  </body>
+</body>
 
 </html>
