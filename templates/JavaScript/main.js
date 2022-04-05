@@ -25,36 +25,24 @@ window.onload= function (){
      document.getElementById("transparent-container").style.transform="scale(1.1)";
      document.getElementById("transparent-container").style.transition="2s";
 }
+var Image_Id = document.getElementById("changeimg");
 function change1(){
-    var Image_Id = document.getElementById("changeimg");
     Image_Id.src = "logo/discover.png";
-    
 }        
 function change2(){
-    var Image_Id = document.getElementById("changeimg");
     Image_Id.src = "logo/tutor.png";
-    
-    
 }        
 function change3(){
-    var Image_Id = document.getElementById("changeimg");
     Image_Id.src = "logo/review.png";
-    
 }        
 function change4(){
-    var Image_Id = document.getElementById("changeimg");
     Image_Id.src = "logo/scheduling.png";
-    
 }        
 function change5(){
-    var Image_Id = document.getElementById("changeimg");
     Image_Id.src = "logo/courses.png";
-    
 }        
 function change6(){
-    var Image_Id = document.getElementById("changeimg");
     Image_Id.src = "logo/matchM.png";
-    
 }   
 
 let slideIndex = 0;
