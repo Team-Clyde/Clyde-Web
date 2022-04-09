@@ -105,6 +105,10 @@ main{
     border-radius: 20px;
     color: white;
 }
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 #choicse-section{
     text-align: center;
     display: flex;
@@ -114,6 +118,7 @@ main{
     width: 2000px; 
     background-color: white;
 }
+
 #choicse-section div{
     width: 400px;
     height: 200px;
@@ -121,15 +126,23 @@ main{
     margin: 10% 5% 20% 20%;
 }
 #choicse-section aside{
-    width: 550px;
-    height: 450px;
-    background-image: url('https://v.fastcdn.co/u/83964589/50941228-0-Tablet.jpg');
+    width: 500px;
+    height: 300px;
+    /* background-image: url('https://v.fastcdn.co/u/83964589/50941228-0-Tablet.jpg'); */
+    /* display: flex;
+    justify-content: center; */
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: 0px 4px 10px dimgray;
+    box-shadow: 1px 10px 5px dimgray;
     border-radius: 10%;
     margin: 2% 0%;
+    padding: 10px;
 }
+#choicse-section aside img{
+    border-radius: 2%;
+    box-shadow: 1px 10px 5px dimgray;
+}
+
 
 #part3{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl_8dN7XVM_tfpvsm55LauuBdfXF0h6ub5Vvw4WoxuD3aN4wZZfWZXkfq6iF6f83zCAw&usqp=CAU');
