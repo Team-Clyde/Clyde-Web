@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="Style/main.css">
   <link rel="stylesheet" href="Bootstrap/ScrollEffects/onScroll.css">
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" href="Style/hamburger.css">
+  <!-- <link rel="stylesheet" href="Style/hamburger.css"> -->
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,26 +22,12 @@
         <li><a href="doubt.html">Doubts</a></li>
         <li><a href="cources.html">Our Courses</a></li>
         <li class="active"><a href="login.html">Register Now</a></li>
-        <!-- <li style="float:right" class="active"><a href=#signin>Sign Up</a></li> -->
-        <li style="float:right; margin-top:-1rem;">
-          <nav role='navigation'>
-            <div id="menuToggle">
-              <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-              <ul id="menu">
-                <li><img src="https://telegra.ph/file/4b3af0d328540a9d397ad.png" id="logoImg" style="border-radius:50%;"
-                    width="200px">
-                </li>
-                <li onclick="location.href='index.html'">Home</li>
-                <li><a href="doubt.html">Doubts</a></li>
-                <li><a href="cources.html">Our Courses</a></li>
-                <li onclick="location.href='dashboard.html'">Dashboard</li>
-              </ul>
-            </div>
-          </nav>
-        </li>
+        <li style="float:right" class="active"><a href="login.html">
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/ajkxzzfb.json" trigger="loop"
+              colors="primary:#c74b16,secondary:#e88c30" style="width:45px;height:45px">
+            </lord-icon>
+          </a></li>
       </ul>
     </nav>
     <!--NAV SECTION ENDED-->
@@ -53,7 +39,8 @@
         </div>
         <div id="para22">
           <span class="manage-margin" style="margin-bottom: 50%;">
-            <p style="font-size: 5rem;" class="h-primary text typing first-H" id="welcome">Find answers to your doubts</p>
+            <p style="font-size: 5rem;" class="h-primary text typing first-H" id="welcome">Find answers to your doubts
+            </p>
             <p style="font-family: sans-serif; font-size: 2.2rem;">Interactive <b> one-on-one</b> doubts solving through
               video call or text messages</p>
           </span>
@@ -88,7 +75,7 @@
             facere! At dicta quae voluptatibus dolores, molestias sint delectus ducimus! Voluptatem maxime quod animi
             excepturi.</p>
       </div>
-     </section>
+    </section>
 
     <section id="section2">
       <div class="text-container scroll-element js-scroll slide-left"
@@ -122,25 +109,63 @@
 
   </main>
 
-  <section class="intro1" style="height: fit-content;">
-    <div id="imgChange">
-      <img id="changeimg" src="logo/MainImg.png">
+  <!-----------------------------special courses-------------------------------------->
+  <section id="spc">
+    <div id="spc1">
+      <p class="first-H" style="font-size: 3rem; font-family:sans-serif;color: white;"><b>Special Courses</b></p>
+      <hr>
+      <p style="font-size: 1.5rem;color: rgb(121, 120, 120);">Special courses' concept is an model of education for
+        person with
+        disability.
+        <b style="color: white;">Owing to lack of knowledge, educational access and technology , disabled children often
+          get's the proper resources which they actually need.
+          So for them we here at CLYDE offers different courses for them
+          like "SIGN LANGUAGE","BRAILLE SCRIPT" ,"LIPREADING" ,"BILINGUAL METHOD" and many more.</b>
+        According to the National Center for Education Statistics, about 11% of undergrads throughout the country
+        report a disability.
+        Online students with disabilities deserve equal access to the same resources, materials, and coursework as
+        their classmates without disabilities.
+        Working closely with Disability Services professionals, students are provided with the help and assistance
+        they need to complete challenging coursework, be it: assistive technologies, readers, notetakers,
+        interpreters, enlarged print, extra time for assignments and exams, and more!
+        .Students can learn from these experts either in online as well as in offline mode according to their comfort.
+
+        We hope at teaching them some helpful courses so that life may become a little easy for them.
+      </p>
+      <button class="glow-on-hover">JOIN NOW</button>
     </div>
-    <div id="verticalb" style="height: 70vh;width: 60vh;padding-right: 10vh; margin-top: 4%;">
-      <ul style="list-style-type: none; display: block;">
-        <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%; "
-          onclick="change1()">Lesson discovery</li>
-        <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
-          onclick="change2()">Tutor profile</li>
-        <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
-          onclick="change3()">Lesson review</li>
-        <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
-          onclick="change4()">Flexible scheduling</li>
-        <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
-          onclick="change5()">All around courses</li>
-        <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
-          onclick="change6()">Smooth matchmaking</li>
-      </ul>
+    <div id="spc2">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="https://media.istockphoto.com/photos/blind-schoolboy-hands-reading-a-braille-book-in-classroom-picture-id1133794232?k=20&m=1133794232&s=612x612&w=0&h=jcM4Q1Pb34jp-mbMdGQXxvZuMJ1Mi5YkXvAU5Y6j_-s="
+          style="width:30vw;height: 48vh; border-radius: 2%; box-shadow: 15px 25px dimgray;"">
+        <!-- <div class=" text">Braille script
+      </div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img
+        src="https://media.istockphoto.com/photos/young-asian-woman-deaf-disabled-using-laptop-computer-for-online-picture-id1328269958?b=1&k=20&m=1328269958&s=170667a&w=0&h=aaQLkLlbwqmtJRqqXHu6kYz_vl9woM9VnNlJzO5JG44="
+        style="width:30vw;height: 48vh; border-radius: 2%; box-shadow: 15px 25px dimgray;"">
+        <!-- <div class=" text">Sign language
+    </div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img
+        src="https://media.istockphoto.com/photos/read-from-my-hands-picture-id654562488?k=20&m=654562488&s=612x612&w=0&h=99jZQZKo8CrVlvco2Eu2xQgpnxqOZcsMvPftcBxL1h8="
+        style="width:30vw;height: 48vh; border-radius: 2%; box-shadow: 15px 25px dimgray;"">
+        <!-- <div class=" text">Tutoring
+    </div> -->
+    </div>
+    <div style="text-align:center; margin-top: 15%;">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
     </div>
   </section>
 
@@ -173,57 +198,29 @@
       </div>
     </div>
 
-    <!-----------------------------special courses-------------------------------------->
-    <section id="spc">
-      <div id="spc1">
-        <p class="first-H" style="font-size: 3rem; font-family:sans-serif;color: white;"><b>Special Courses</b></p>
-        <hr>
-        <p style="font-size: 1.5rem;color: rgb(121, 120, 120);">Special courses' concept is an model of education for person with
-          disability.
-          <b style="color: white;">Owing to lack of knowledge, educational access and technology , disabled children often get's the proper resources which they actually need.
-          So for them we here at CLYDE offers different courses for them
-          like "SIGN LANGUAGE","BRAILLE SCRIPT" ,"LIPREADING" ,"BILINGUAL METHOD" and many more.</b>
-          According to the National Center for Education Statistics, about 11% of undergrads throughout the country
-          report a disability.
-          Online students with disabilities deserve equal access to the same resources, materials, and coursework as
-          their classmates without disabilities.
-          Working closely with Disability Services professionals, students are provided with the help and assistance
-          they need to complete challenging coursework, be it: assistive technologies, readers, notetakers,
-          interpreters, enlarged print, extra time for assignments and exams, and more!
-          .Students can learn from these experts either in online as well as in offline mode according to their comfort.
 
-          We hope at teaching them some helpful courses so that life may become a little easy for them. </p>
-          <button class="glow-on-hover">JOIN NOW</button>
+
+    <section class="intro1" style="height: fit-content;">
+      <div id="imgChange">
+        <img id="changeimg" src="logo/MainImg.png">
       </div>
-      <div id="spc2">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="https://media.istockphoto.com/photos/blind-schoolboy-hands-reading-a-braille-book-in-classroom-picture-id1133794232?k=20&m=1133794232&s=612x612&w=0&h=jcM4Q1Pb34jp-mbMdGQXxvZuMJ1Mi5YkXvAU5Y6j_-s=" 
-          style="width:30vw;height: 48vh; border-radius: 2%; box-shadow: 15px 25px dimgray;"">
-          <!-- <div class="text">Braille script</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="https://media.istockphoto.com/photos/young-asian-woman-deaf-disabled-using-laptop-computer-for-online-picture-id1328269958?b=1&k=20&m=1328269958&s=170667a&w=0&h=aaQLkLlbwqmtJRqqXHu6kYz_vl9woM9VnNlJzO5JG44=" 
-          style="width:30vw;height: 48vh; border-radius: 2%; box-shadow: 15px 25px dimgray;"">
-          <!-- <div class="text">Sign language</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="https://media.istockphoto.com/photos/read-from-my-hands-picture-id654562488?k=20&m=654562488&s=612x612&w=0&h=99jZQZKo8CrVlvco2Eu2xQgpnxqOZcsMvPftcBxL1h8=" 
-          style="width:30vw;height: 48vh; border-radius: 2%; box-shadow: 15px 25px dimgray;"">
-          <!-- <div class="text">Tutoring</div> -->
-        </div>
-        <div style="text-align:center; margin-top: 15%;">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
+      <div id="verticalb" style="height: 70vh;width: 60vh;padding-right: 10vh; margin-top: 4%;">
+        <ul style="list-style-type: none; display: block;">
+          <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%; "
+            onclick="change1()">Lesson discovery</li>
+          <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
+            onclick="change2()">Tutor profile</li>
+          <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
+            onclick="change3()">Lesson review</li>
+          <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
+            onclick="change4()">Flexible scheduling</li>
+          <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
+            onclick="change5()">All around courses</li>
+          <li class="glow-on-hover" style="padding-bottom: 35px; width: 40vh; height: 5vh; border-radius: 20%;"
+            onclick="change6()">Smooth matchmaking</li>
+        </ul>
       </div>
     </section>
-
 
     <!--demo class-->
     <div id="demoC" style="margin-top: 10vh;margin-bottom: 5vh;">
@@ -250,7 +247,8 @@
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="" tabindex="-1"
               value=""></div>
           <div class="clear"></div>
-          <button name="subscribe" id="mc-embedded-subscribe" class="button glow-on-hover" type="submit">Subscribe US</button>
+          <button name="subscribe" id="mc-embedded-subscribe" class="button glow-on-hover" type="submit">Subscribe
+            US</button>
         </form>
       </div>
     </div>
