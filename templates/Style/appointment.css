@@ -35,3 +35,25 @@ main{
     background-color: white;
     border-radius: 10%;
 }
+.head{
+ font-size: 23px;
+ color: black;
+ text-decoration: underline;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.page{
+    display: inline;
+}
+.first{
+    margin-top: 12px;
+ display: flex;
+ flex-direction: column;
+}
+
+.left{
+    margin-top: 72px;
+    height: 60px;
+}
+.mid{
+    margin-right: 123px;
+}
