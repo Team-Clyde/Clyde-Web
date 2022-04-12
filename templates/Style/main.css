@@ -31,6 +31,18 @@
     transition: 0.9s;
 }
 
+#logbtn {
+    color: white;
+    padding-top: 12%;
+    margin-right: 30px;
+}
+
+#logbtn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.9s;
+}
+
 .active {
     background-color: #000000;
     text-align: center;
