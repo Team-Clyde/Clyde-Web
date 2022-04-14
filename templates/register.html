@@ -20,20 +20,20 @@
                     <tr>
                         <td>
                             <label for="fname" class="input-text">First name<sup class="color-red">*</sup></label><br>
-                            <input class="input" type="text" id="fname" placeholder="First name">
+                            <input class="input" type="text" id="fname" placeholder="First name" required>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <label for="lname" class="input-text">Last name<sup class="color-red">*</sup></label><br>
-                            <input class="input" type="text" id="lname" placeholder="Last name">
+                            <input class="input" type="text" id="lname" placeholder="Last name" required>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <label for="email" class="input-text">Email address<sup
                                     class="color-red">*</sup></label><br>
-                            <input class="input" type="email" id="email" placeholder="Email address">
+                            <input class="input" type="email" id="email" placeholder="Email address" required>
                         </td>
                     </tr>
                     <tr>
@@ -46,7 +46,7 @@
                         <td>
                             <label for="Role" class="input-text">Role<sup class="color-red">*</sup></label><br>
                             <div class="custom-selector" style="width:200px;">
-                                <select class="dropdown" name="ROLE" id="Role">
+                                <select class="dropdown" name="ROLE" id="Role" required>
                                     <option value="#">Role</option>
                                     <option value="student">Student</option>
                                     <option value="teacher">Teacher</option>
@@ -66,17 +66,16 @@
                     <tr>
                         <td>
                             <label for="address" class="input-text">Address<sup class="color-red">*</sup></label><br>
-                            <textarea class="input" name="address" id="address" cols="30" rows="4"
+                            <textarea class="input" name="address" id="address" cols="30" rows="4" required
                                 style="border: 1px solid rgb(151, 151, 151); border-radius: 4px;"
                                 placeholder="Address"></textarea>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input type="submit">
+                            <input id="submit" type="submit">
                         </td>
                     </tr>
-
                 </table>
 
             </form>
@@ -101,6 +100,11 @@
                 </form>
                 <div class="status-text"></div>
             </div>
+            <div>
+                <p class="warning-text">Signing up signifies that you have read and agree to the <a href="#">Terms of Service</a> and our <a href="#">Privacy Policy</a>.
+                    <a href="#">Cookie Preferences</a>.</p>
+            </div>
+            
         </section>
         <aside>
             <div>
@@ -112,8 +116,7 @@
                     <p class="heading-text"> Free account</p>
                 </span>
                 <span>
-                    <p class="info-text">Create apps, connect databases and add-on services, and collaborate on your
-                        apps, for free.</p>
+                    <p class="info-text">Placeat quibusdam consequuntur quisquam, tenetur doloremque eos sunt ipsum voluptas provident quidem impedit veritatis omnis repudiandae consectetur fugit, enim tempora ratione ad?</p>
                 </span>
                 <div class="horizontal-line"></div>
             </div>
@@ -127,8 +130,7 @@
                     <p class="heading-text"> Your app platform</p>
                 </span>
                 <span>
-                    <p class="info-text">A platform for apps, with app management & instant scaling, for development and
-                        production.</p>
+                    <p class="info-text">Aspernatur, aliquam esse velit expedita minima doloribus ipsam atque, temporibus architecto alias ipsum aliquid ad? Natus!</p>
                 </span>
                 <div class="horizontal-line"></div>
             </div>
@@ -142,8 +144,7 @@
                     <p class="heading-text"> Deploy now</p>
                 </span>
                 <span>
-                    <p class="info-text">Go from code to running app in minutes. Deploy, scale, and deliver your app to
-                        the world.</p>
+                    <p class="info-text">Maxime blanditiis qui nisi repudiandae ratione dolores, autem sunt suscipit ex non voluptatem odit?</p>
                 </span>
                 <div class="horizontal-line"></div>
             </div>

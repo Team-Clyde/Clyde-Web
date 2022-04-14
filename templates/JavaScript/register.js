@@ -2,7 +2,8 @@ const captcha = document.querySelector(".captcha"),
 reloadBtn = document.querySelector(".reload-btn"),
 inputField = document.querySelector(".input-area #cap-input"),
 checkBtn = document.querySelector(".check-btn"),
-statusTxt = document.querySelector(".status-text");
+statusTxt = document.querySelector(".status-text"),
+submitbtn = document.querySelector("#submit");
 //storing all captcha characters in array
 let allCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O',
                      'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd',
@@ -26,12 +27,13 @@ checkBtn.addEventListener("click", e =>{
   //adding space after each character of user entered values because I've added spaces while generating captcha
   let inputVal = inputField.value.split('').join(' ');
   if(inputVal == captcha.innerText){ //if captcha matched
-    statusTxt.style.color = "#4db2ec";
-    statusTxt.innerText = "Nice! You don't appear to be a robot.";
+    statusTxt.style.color = "green";
+    statusTxt.innerText = "Great! You are Good to Go, Click on Submit!";
+    submitbtn.style.display = "block";
     setTimeout(()=>{ //calling removeContent & getCaptcha after 2 seconds
       removeContent();
       getCaptcha();
-    }, 2000);
+    }, 3000);
   }else{
     statusTxt.style.color = "#ff0000";
     statusTxt.innerText = "Captcha not matched. Please try again!";
