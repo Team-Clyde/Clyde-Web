@@ -1,6 +1,6 @@
 const captcha = document.querySelector(".captcha"),
 reloadBtn = document.querySelector(".reload-btn"),
-inputField = document.querySelector(".input-area input"),
+inputField = document.querySelector(".input-area #cap-input"),
 checkBtn = document.querySelector(".check-btn"),
 statusTxt = document.querySelector(".status-text");
 //storing all captcha characters in array
