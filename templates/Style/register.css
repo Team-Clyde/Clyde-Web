@@ -7,11 +7,26 @@ body {
 }
 
 header {
-  margin-bottom: 15%;
+  margin-top: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+header p{
+  text-transform: uppercase;
+  font-weight: none;
+  font-size: 24px;
+  margin-left: 150px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+header p::first-letter{
+  font-size: 34px;
 }
 
 main {
-  height: 980px;
+  height: 1050px;
   width: 860px;
   background-color: rgb(255, 255, 255);
   border-radius: 1%;

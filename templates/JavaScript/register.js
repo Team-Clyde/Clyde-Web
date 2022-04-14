@@ -28,7 +28,7 @@ checkBtn.addEventListener("click", e =>{
   let inputVal = inputField.value.split('').join(' ');
   if(inputVal == captcha.innerText){ //if captcha matched
     statusTxt.style.color = "green";
-    statusTxt.innerText = "Great! You are Good to Go, Click on Submit!";
+    statusTxt.innerText = "Great! Good to Go, Click on Submit!";
     submitbtn.style.display = "block";
     setTimeout(()=>{ //calling removeContent & getCaptcha after 2 seconds
       removeContent();

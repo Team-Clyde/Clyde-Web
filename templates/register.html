@@ -11,7 +11,7 @@
 
 <body>
     <header>
-
+        <p>Sign up for free and<br>experience Clyde community today!</p>
     </header>
     <main>
         <section>
@@ -38,6 +38,13 @@
                     </tr>
                     <tr>
                         <td>
+                            <label for="password" class="input-text">Password<sup
+                                    class="color-red">*</sup></label><br>
+                            <input class="input" type="password" id="password" placeholder="Password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <label for="cname" class="input-text">Company name</label><br>
                             <input class="input" type="text" id="cname" placeholder="Company name">
                         </td>
@@ -47,7 +54,6 @@
                             <label for="Role" class="input-text">Role<sup class="color-red">*</sup></label><br>
                             <div class="custom-selector" style="width:200px;">
                                 <select class="dropdown" name="ROLE" id="Role" required>
-                                    <option value="#">Role</option>
                                     <option value="student">Student</option>
                                     <option value="teacher">Teacher</option>
 
@@ -106,6 +112,8 @@
             </div>
             
         </section>
+
+
         <aside>
             <div>
                 <span class="flex-container">
@@ -148,7 +156,6 @@
                 </span>
                 <div class="horizontal-line"></div>
             </div>
-
         </aside>
     </main>
     <script src="JavaScript/register.js"></script>
